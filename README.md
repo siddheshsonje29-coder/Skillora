@@ -366,7 +366,7 @@ For instant evaluation without having to register new accounts, use any of the f
 | :--- | :--- | :--- | :--- | :--- |
 | `siddhesh@skillora.com` | Siddhesh Jain | BITS Pilani | Fullstack & AI Builder | 100 CR |
 | `ayush@skillora.com` | Ayush Sharma | IIT Bombay | Frontend Architect (React) | 120 CR |
-| `mrunali@skillora.com` | Mrunali Patil | NID Ahmedabad | Lead Product Designer (Figma) | 150 CR |
+| `mrunali@skillora.com` | Mrunali Patel | NID Ahmedabad | Lead Product Designer (Figma) | 150 CR |
 | `aravind@skillora.com` | Aravind Iyer | IIT Madras | ML Researcher (Python/PyTorch) | 100 CR |
 
 > **Pro Tip**: The login screen features **1-Click Quick Demo Login** buttons that fill and authenticate these profiles instantly!
@@ -661,16 +661,6 @@ Contributions make the open-source community an inspiring place to learn, inspir
 ## 📄 License
 
 > **License**: Not specified
-
----
-
-## 👨‍💻 Author
-
-**Skillora Engineering Team**
-- **Siddhesh Jain** — Fullstack Architecture & AI Systems (BITS Pilani)
-- **Ayush Sharma** — Frontend Architecture & UI Systems (IIT Bombay)
-- **Mrunali Patil** — Product & Interaction Design (NID Ahmedabad)
-- **Aravind Iyer** — Machine Learning & Matching Algorithms (IIT Madras)
 
 ---
 
