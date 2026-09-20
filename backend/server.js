@@ -66,7 +66,12 @@ const { connectDB } = require('./db');
 connectDB();
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`🚀 Skillora Backend running on port ${PORT}`);
-});
+if (!process.env.VERCEL) {
+  server.listen(PORT, () => {
+    console.log(`🚀 Skillora Backend running on port ${PORT}`);
+  });
+}
+
+module.exports = app;
+
 

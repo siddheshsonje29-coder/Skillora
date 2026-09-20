@@ -92,9 +92,14 @@ const connectDB = async () => {
     return;
   } catch (err) {
     console.warn(`⚠️  Could not connect to ${targetUri} (${err.message}).`);
-    console.log('🚀 Starting in-memory MongoDB fallback...');
   }
 
+  if (process.env.VERCEL) {
+    console.error('❌ Running on Vercel: Please configure MONGO_URI in your Vercel Environment Variables pointing to MongoDB Atlas.');
+    return;
+  }
+
+  console.log('🚀 Starting in-memory MongoDB fallback...');
   try {
     const { MongoMemoryServer } = require('mongodb-memory-server');
     memServer = await MongoMemoryServer.create();
